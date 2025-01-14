@@ -22,7 +22,7 @@ exporters:
   - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/exporter/fileexporter v0.104.0
   - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/exporter/lokiexporter v0.104.0
   - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/exporter/coralogixexporter v0.104.0
-  - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearch v0.104.0
+  - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearchexporter v0.104.0
 
 replaces:
   # Override Lokiexporter dependencies.
